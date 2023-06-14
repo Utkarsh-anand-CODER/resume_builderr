@@ -1,0 +1,87 @@
+.main_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: rgb(218, 213, 213);
+  border-radius: 5px;
+  padding: 16px;
+  margin-bottom: 8px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.edit-button,
+.info-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  color: #000000;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.toggle-button {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  color: #8A4893;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 8px;
+
+}
+
+.section-name {
+  flex: 1;
+  font-size: 18px;
+  margin: 0;
+}
+
+.section-description {
+  font-size: 14px;
+  margin: 0;
+}
+
+.save-button {
+  background: #8A4893;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+/* Styling for Drag and Drop */
+.droppable-container {
+  background: rgb(247, 244, 244);
+  padding: 8px;
+}
+
+.draggable-item {
+  user-select: none;
+  padding: 16px;
+  margin-bottom: 8px;
+  background: lightgreen;
+}
+
+.draggable-item.dragging {
+  background: lightblue;
+}
